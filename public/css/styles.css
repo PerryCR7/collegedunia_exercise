@@ -1,0 +1,42 @@
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* } */
+.title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main_div {
+    display: flex;
+    margin: 60px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub_div {
+    width: 48%;
+    margin: 30px 0px;
+    border: 1px solid;
+}
+
+.promoted {
+    position: absolute;
+    top: -24px;
+    right: -1px;
+}
+
+.rating {
+    position: absolute;
+    top: 40px;
+    right: 2%;
+}
+
+.data {
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    display: flex;
+}

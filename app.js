@@ -24,10 +24,11 @@ app.use(express.static(PublicDirectoryPath))
 app.get('', (req, res) => {
    res.render('index')
 })
+
+
 app.get('/index', (req, res) => {
    res.render('index')
 })
-
 
 
 app.get('/get_collegedunia_data', async(req, res) => {
@@ -43,6 +44,8 @@ app.get('/get_collegedunia_data', async(req, res) => {
 app.get('*', (req, res) => {
    res.render('index')
 })
+
+
  app.listen(PORT, () => {
      console.log('Server is up on port!' + PORT)
  })

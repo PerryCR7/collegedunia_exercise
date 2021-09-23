@@ -9,9 +9,6 @@ window.addEventListener('scroll',()=>{
 })
 
 function load_data() {
-    // console.log("hello");
-    // let i = 0;
-    // while (i < numImages) {\
     fetch('/get_collegedunia_data').then((response) => {
         response.json().then((data) => {
             if (data.error) {
